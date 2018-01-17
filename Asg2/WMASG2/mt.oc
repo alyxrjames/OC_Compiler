@@ -1,0 +1,5 @@
+int y = 4;
+int z = 8;
+int a = y + z;
+puti (a + 6);
+

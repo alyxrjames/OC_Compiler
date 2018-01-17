@@ -1,0 +1,30 @@
+# 1 "mt.oc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h"
+# 1 "<command-line>"
+# 1 "mt.oc"
+  5   1.  0  261          TOK_INT (int)
+  5   1.  4  279        TOK_IDENT (y)
+  5   1.  6   61              '=' (=)
+  5   1.  8  280       TOK_INTCON (4)
+  5   1.  9   59              ';' (;)
+  5   2.  0  261          TOK_INT (int)
+  5   2.  4  279        TOK_IDENT (z)
+  5   2.  6   61              '=' (=)
+  5   2.  8  280       TOK_INTCON (8)
+  5   2.  9   59              ';' (;)
+  5   3.  0  261          TOK_INT (int)
+  5   3.  4  279        TOK_IDENT (a)
+  5   3.  6   61              '=' (=)
+  5   3.  8  279        TOK_IDENT (y)
+  5   3. 10   43              '+' (+)
+  5   3. 12  279        TOK_IDENT (z)
+  5   3. 13   59              ';' (;)
+  5   4.  0  279        TOK_IDENT (puti)
+  5   4.  5   40              '(' (()
+  5   4.  6  279        TOK_IDENT (a)
+  5   4.  8   43              '+' (+)
+  5   4. 10  280       TOK_INTCON (6)
+  5   4. 11   41              ')' ())
+  5   4. 12   59              ';' (;)

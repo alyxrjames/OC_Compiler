@@ -1,0 +1,1 @@
+0xffc750->{TOK_IDENT(259) 5:1.000 "line" []}0xffc7d0->{TOK_INTCON(279) 5:1.005 "1" []}0xffc820->{TOK_STRINGCON(281) 5:2.000 ""foo.oc"" []}0xffc870->{TOK_INTCON(279) 5:2.009 "2" []}0xffc8c0->{TOK_STRINGCON(281) 5:2.011 ""Dec 23 2016"" []}0xffc910->{TOK_STRINGCON(281) 5:2.025 ""16:29:34"" []}0xffc990->{TOK_IDENT(259) 5:3.000 "foo" []}

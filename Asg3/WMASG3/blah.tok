@@ -1,0 +1,11 @@
+# 1 "blah.oc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h"
+# 1 "<command-line>"
+# 1 "blah.oc"
+  5   1.  0  261          TOK_INT (int)
+  5   1.  4  279        TOK_IDENT (apple)
+  5   1. 10   61              '=' (=)
+  5   1. 12  280       TOK_INTCON (20)
+  5   1. 14   59              ';' (;)

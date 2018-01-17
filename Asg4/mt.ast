@@ -1,0 +1,20 @@
+ ROOT "<<ROOT>>" 0:0.0000x1b14ec0 0x1b150e0 0x1b152b0 0x1b154d0
+    TOK_VARDECL "=" 5:1.0060x1b14df0 0x1b14f10
+       TOK_INT "int" 5:1.0000x1b14e70
+          TOK_DECLID "y" 5:1.004
+       TOK_INTCON "4" 5:1.008
+    TOK_VARDECL "=" 5:2.0060x1b14f60 0x1b15130
+       TOK_INT "int" 5:2.0000x1b15070
+          TOK_DECLID "z" 5:2.004
+       TOK_INTCON "8" 5:2.008
+    TOK_VARDECL "=" 5:3.0060x1b151a0 0x1b15350
+       TOK_INT "int" 5:3.0000x1b15260
+          TOK_DECLID "a" 5:3.004
+       '+' "+" 5:3.0100x1b15300 0x1b153a0
+          TOK_IDENT "y" 5:3.008
+          TOK_IDENT "z" 5:3.012
+    TOK_CALL "(" 5:4.0050x1b153f0 0x1b155a0
+       TOK_IDENT "puti" 5:4.000
+       '+' "+" 5:4.0080x1b15520 0x1b155f0
+          TOK_IDENT "a" 5:4.006
+          TOK_INTCON "6" 5:4.010

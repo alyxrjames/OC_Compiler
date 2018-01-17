@@ -1,0 +1,43 @@
+ ROOT "<<ROOT>>" 0:0.0000x1b95010 0x1b951d0 0x1b95270
+    TOK_FUNCTION "" 5:1.0000x1b94490 0x1b94560 0x1b94730
+       TOK_INT "int" 5:1.0000x1b94510
+          TOK_DECLID "fac" 5:1.004
+       TOK_PARAMLIST "(" 5:1.0080x1b945b0
+          TOK_INT "int" 5:1.0090x1b94630
+             TOK_DECLID "n" 5:1.013
+       TOK_BLOCK "{" 5:1.0150x1b94870 0x1b94930 0x1b94b30
+          TOK_VARDECL "=" 5:2.0070x1b947b0 0x1b948c0
+             TOK_INT "int" 5:2.0010x1b94800
+                TOK_DECLID "f" 5:2.005
+             TOK_INTCON "1" 5:2.009
+          TOK_WHILE "while" 5:3.0010x1b94a90 0x1b94bc0
+             TOK_GT ">" 5:3.0100x1b94a40 0x1b94ae0
+                TOK_IDENT "n" 5:3.008
+                TOK_INTCON "1" 5:3.012
+             TOK_BLOCK "{" 5:3.0150x1b94c60 0x1b94e80
+                '=' "=" 5:4.0040x1b94c10 0x1b94d00
+                   TOK_IDENT "f" 5:4.002
+                   '*' "*" 5:4.0060x1b94cb0 0x1b94d50
+                      TOK_IDENT "f" 5:4.005
+                      TOK_IDENT "n" 5:4.007
+                '=' "=" 5:5.0040x1b94dd0 0x1b94f20
+                   TOK_IDENT "n" 5:5.002
+                   '-' "-" 5:5.0060x1b94ed0 0x1b94f90
+                      TOK_IDENT "n" 5:5.005
+                      TOK_INTCON "1" 5:5.007
+          TOK_RETURN "return" 5:7.0010x1b949f0
+             TOK_IDENT "f" 5:7.008
+    TOK_VARDECL "=" 5:9.0060x1b946c0 0x1b95220
+       TOK_INT "int" 5:9.0000x1b95180
+          TOK_DECLID "n" 5:9.004
+       TOK_INTCON "1" 5:9.008
+    TOK_WHILE "while" 5:10.0000x1b953a0 0x1b95500
+       TOK_LE "<=" 5:10.0090x1b95350 0x1b953f0
+          TOK_IDENT "n" 5:10.007
+          TOK_INTCON "5" 5:10.012
+       TOK_BLOCK "{" 5:10.0150x1b955a0
+          TOK_CALL "(" 5:11.0060x1b95550 0x1b95640
+             TOK_IDENT "puti" 5:11.001
+             TOK_CALL "(" 5:11.0110x1b955f0 0x1b95690
+                TOK_IDENT "fac" 5:11.007
+                TOK_IDENT "n" 5:11.012

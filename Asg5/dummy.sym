@@ -1,0 +1,15 @@
+node (5.1.7) {0} struct {node} typeid  
+foo (5.1.14) {0} int field  
+link (5.1.23) {0} struct {link} field typeid  
+func (5.2.0) {0} function  
+	head (5.2.16) {1} variable param lval  
+	length (5.2.26) {1} variable param lval  
+func (5.2.0) {0} function  
+		a (5.3.6) {2} variable  
+		b (5.3.20) {2} variable  
+		c (5.3.33) {2} variable  
+			d (5.4.19) {3} variable  
+				e (5.5.16) {4} variable  
+					f (5.6.20) {5} variable  
+						g (5.7.13) {6} variable  
+h (5.10.7) {0} variable  
